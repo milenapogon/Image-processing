@@ -11,7 +11,7 @@ img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
 
 # oryginał
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-plt.title("Oryginalny")
+plt.title("Oryginał")
 plt.axis("off")
 plt.show()
 
